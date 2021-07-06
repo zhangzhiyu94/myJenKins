@@ -14,7 +14,7 @@ public class test {
 
         StringBuilder str = new StringBuilder();
         while (str.length()<4){
-            Integer i = new Random().nextInt(4);
+            Integer i = new        Random().nextInt(4);
             if (!str.toString().contains(i.toString())){
                 str.append(i.toString());
             }
